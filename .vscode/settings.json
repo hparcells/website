@@ -1,0 +1,19 @@
+{
+  "files.exclude": {
+    ".next/": true,
+    "dist/": true,
+    "node_modules/": true,
+    "out/": true,
+    ".eslintignore": true,
+    ".eslintrc": true,
+    ".gitignore": true,
+    ".prettierrc": true,
+    "cspell.json": true,
+    "next.config.js": true,
+    "next-env.d.ts": true,
+    "package-lock.json": true,
+    "tsconfig.json": true,
+    "tsconfig.server.json": true
+  },
+  "discord.enabled": true
+}

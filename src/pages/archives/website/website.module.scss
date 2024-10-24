@@ -1,0 +1,19 @@
+@import "../../../styles/archives.module.scss";
+
+.toolboxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.toolbox {
+  margin: 0.5em 1em;
+  flex-grow: 1;
+
+  ul {
+    margin-top: 0;
+    padding-left: 1em;
+  }
+}
+.heart > svg {
+  color: #e25555;
+}

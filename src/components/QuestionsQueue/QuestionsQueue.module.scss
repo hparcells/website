@@ -1,0 +1,36 @@
+@import '../../styles/form.module.scss';
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 1em 0;
+  
+  button {
+    flex-grow: 1;
+  }
+
+}
+
+.boxed {
+  min-height: 111px;
+  border-radius: 10px;
+
+  background-color: #dadada;
+
+  padding: 1em;
+}
+
+.input {
+  height: 120px;
+  margin-bottom: 1em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 1em;
+}

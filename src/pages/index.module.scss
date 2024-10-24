@@ -1,0 +1,21 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper:nth-child(even) {
+    background: linear-gradient(165deg, #eeeeee, #f1f1f1);
+}
+.content {
+    padding: 0em 1em;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
