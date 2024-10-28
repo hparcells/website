@@ -65,11 +65,9 @@ function ThisWebsite() {
                 </strong>
               </li>
               <li>
-                <strong>
-                  <a href='https://www.backblaze.com/' target='_blank'>
-                    Backblaze
-                  </a>
-                </strong>
+                <a href='https://www.backblaze.com/' target='_blank'>
+                  Backblaze
+                </a>
               </li>
               <li>
                 <a href='https://app.sendgrid.com/' target='_blank'>
