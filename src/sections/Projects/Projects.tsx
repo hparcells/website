@@ -13,7 +13,7 @@ const projectShowcase: Project[] = [
     description:
       'An interactive, curated list of available merch items from all around the Red Rising community from big to small.',
     image: risingSwagImage,
-    github: 'rising-swag',
+    github: 'https://github.com/hparcells/rising-swag',
     demo: 'https://risingswag.com/'
   },
   {
