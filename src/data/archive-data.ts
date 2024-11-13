@@ -4,7 +4,7 @@ export const writingArchiveData: ArchiveItem[] = [
   {
     date: '2024',
     label: 'Shadows of Redemption',
-    secondaryText: 'Inspired by "476"'
+    secondaryText: 'Co-Author'
   },
   {
     date: '2022-05-02',
