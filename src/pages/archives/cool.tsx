@@ -23,11 +23,15 @@ function ArchivesCoolPeople() {
           learned, and the wisdom you've shared.
         </p>
         <p>
-          Some of you, we may not have talked in months or years, others only even once, but know
-          that I appreciate you, and I wish you best of luck in wherever life takes you. Per aspera,
-          ad astra.
+          Some of you, we may not have talked in months or years, others only once, but know that I
+          appreciate you, and I wish you best of luck in wherever life takes you.{' '}
+          <em>Per aspera, ad astra.</em>
         </p>
-        <ul>
+        <ul
+          style={{
+            columns: 2
+          }}
+        >
           <li>Dave C.</li>
           <li>Chaz V.</li>
           <li>Nick H.</li>
@@ -37,7 +41,6 @@ function ArchivesCoolPeople() {
           <li>Denis</li>
           <li>Jim Y.</li>
           <li>Ian S.</li>
-          <li>Tony</li>
           <li>All the members of NSG.</li>
           <li>All the members of 1710.</li>
         </ul>
