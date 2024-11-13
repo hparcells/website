@@ -1,0 +1,64 @@
+.root {
+    box-sizing: border-box;
+
+    background: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+
+    padding: 0.75em 1em;
+
+    color: #ffffff;
+
+    transition: all 0.15s;
+}
+.root * {
+    margin: 0;
+   
+    padding: 0;
+}
+.root:not(:last-child) {
+    margin-bottom: 1em;
+}
+.root.selected {
+    border-style: inset;
+    background-color: #1c1c1c;
+}
+
+.date, .uuid {
+    font-family: monospace;
+    color: #adadadad;
+}
+.uuid {
+    transition: all 0.25s;
+}
+.uuid:hover {
+    color: #ffffff;
+}
+
+.question {
+    white-space: pre-wrap;
+}
+
+.header {
+    margin-bottom: 1em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 1em;
+    
+    p {
+        cursor: pointer;
+    }
+    svg {
+        cursor: pointer;
+        color: #adadadad;
+        transition: all 0.25s;
+    }
+    svg:hover {
+        cursor: pointer;
+        color: #ffffff;
+    }
+}

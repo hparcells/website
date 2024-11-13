@@ -1,0 +1,58 @@
+.root {
+    a, .link {
+        color: #62b1f7;
+        text-decoration: none;
+        transition: color 0.1s ease-out;
+
+        cursor: pointer;
+    }
+    a:hover, .link:hover {
+        color: #add8ff;
+    }
+
+    color: #ffffff;
+
+    background-color: #222222;
+    border-top: 10px #5c5c5c solid;
+
+    padding: 1em;
+    
+    flex-grow: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    max-width: 1200px;
+    
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footerSide {
+    flex-basis: 300px;
+    margin: 0em 0.5em 0.5em 0.5em;
+    
+    flex-grow: 1;
+}
+
+.name {
+    font-size: 26px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+
+}
+
+.icon {
+    margin-right: 0.25em;
+    color: inherit;
+
+    vertical-align: sub;
+}
+
+.listListItem {
+    margin: 0.25em 0;
+}

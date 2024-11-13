@@ -1,0 +1,30 @@
+.response > * {
+  margin: 0;
+  padding: 0;
+}
+.response:not(:first-child) {
+  margin-top: 42px;
+}
+.timestamp {
+  font-family: monospace;
+  color: #5c5c5c;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1em;
+}
+.question {
+  white-space: pre-wrap;
+  font-weight: 800;
+}
+.permalink {
+  font-family: monospace;
+  color: #5c5c5c;
+  cursor: pointer;
+}
+.answer {
+  white-space: pre-wrap;
+}

@@ -1,0 +1,50 @@
+@import "../../../styles/archives.module.scss";
+@import "../../../styles/form.module.scss";
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 42px;
+}
+.sendRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-top: 0.5em;
+}
+.questionInput {
+    @extend .input;
+
+    height: 120px;
+}
+.submitButton {
+    @extend .button;
+
+    margin-left: 0.5em;
+}
+.description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.emailInput {
+    @extend .input;
+
+    width: 225px;
+}
+
+.response > * {
+    margin: 0;
+    padding: 0;
+}
+.response:not(:first-child) {
+    margin-top: 42px;
+}
+.timestamp {
+    font-family: monospace;
+    color: #5c5c5c;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+@import '../section.module.scss';
+
+.header {
+  margin: 0;
+}
+.wrapper {
+  margin-top: 1em;
+  
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  margin-top: 1em;
+  font-style: italic;
+  text-align: center;
+}
