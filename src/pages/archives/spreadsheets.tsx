@@ -48,16 +48,6 @@ function ArchivesSpreadsheets() {
           </li>
           <li>
             <a
-              href='https://docs.google.com/spreadsheets/d/1sihTOaXPsVlIpmgnDdsjRbdJuhupXcZh-d2OrV3gigY/edit?usp=sharing'
-              target='blank'
-            >
-              Finance Template
-            </a>
-            <InlineChip text='Beta' />: Track spending across accounts, planned expenses, available
-            money for the week, and more.
-          </li>
-          <li>
-            <a
               href='https://docs.google.com/spreadsheets/d/1zo4qIlByV7U7cE6jgI5dg745d37hHuqR6N8_Ku3SsIs/edit?usp=sharing'
               target='blank'
             >
@@ -133,6 +123,12 @@ function ArchivesSpreadsheets() {
               osu! Tournament History
             </a>
             : A log of my tournament participation in the rhythm game, osu!.
+          </li>
+          <li>
+            <a href='https://docs.google.com/spreadsheets/d/1GWXwa5gSNNnF545JciJA98uJgRdcbVwP1BLSJO0IjVw/edit?usp=sharing'>
+              osu! Tournament Scores <InlineChip text='High Fidelity' />
+            </a>
+            : My tournament scores/plays in osu!.
           </li>
           <li>
             <a href='https://docs.google.com/spreadsheets/d/1sOkhkyFVsSleyAh1lkP3YWsZAFwFisrR5CcIVMharHI/edit?usp=sharing'>
