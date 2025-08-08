@@ -89,9 +89,9 @@ function ArchivesSpreadsheets() {
           </li>
           <li>
             <a href='https://docs.google.com/spreadsheets/d/1GWXwa5gSNNnF545JciJA98uJgRdcbVwP1BLSJO0IjVw/edit?usp=sharing'>
-              osu! Tournament Scores <InlineChip text='High Fidelity' />
+              osu! Tournament Scores
             </a>
-            : My tournament scores/plays in osu!.
+            <InlineChip text='High Fidelity' />: My tournament scores/plays in osu!.
           </li>
           <li>
             <a href='https://docs.google.com/spreadsheets/d/1sOkhkyFVsSleyAh1lkP3YWsZAFwFisrR5CcIVMharHI/edit?usp=sharing'>
