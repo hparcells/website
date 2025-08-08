@@ -12,7 +12,6 @@ function Index() {
     <Layout>
       <div className={classes.root}>
         <Splash />
-
         <div className={classes.wrapper}>
           <div className={classes.content}>
             <AboutMe />

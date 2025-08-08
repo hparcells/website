@@ -64,16 +64,24 @@ function botLog(message: string) {
     });
 
     // Setup database.
-    databaseLog(`Connecting to the database at ${databaseUrl}...`);
-    await mongoClient.connect();
-    databaseLog('Connected to the database.');
-    db = mongoClient.db('hunterparcells');
-    await ensureDefaultUser();
+    if (process.env.DATABASE_PASSWORD) {
+      databaseLog(`Connecting to the database at ${databaseUrl}...`);
+      await mongoClient.connect();
+      databaseLog('Connected to the database.');
+      db = mongoClient.db('hunterparcells');
+      await ensureDefaultUser();
+    } else {
+      databaseLog('No database password provided, skipping database setup.');
+    }
 
     // Setup bot.
-    botLog('Starting the bot...');
-    await initBot();
-    botLog('Bot started.');
+    if (process.env.DEV_DISCORD_TOKEN) {
+      botLog('Starting the bot...');
+      await initBot();
+      botLog('Bot started.');
+    } else {
+      botLog('No Discord token provided, skipping bot setup.');
+    }
 
     // SendGrid
     initEmail();

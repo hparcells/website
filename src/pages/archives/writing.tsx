@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 import ArchiveItem from '../../components/ArchiveItem';
 
-import classes from '../../styles/archives.module.scss';
+import classes from './index.module.scss';
 
 import { writingArchiveData } from '../../data/archive-data';
 

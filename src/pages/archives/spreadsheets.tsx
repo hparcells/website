@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 import InlineChip from '../../components/InlineChip/InlineChip';
 
-import classes from '../../styles/archives.module.scss';
+import classes from './index.module.scss';
 
 function ArchivesSpreadsheets() {
   return (
@@ -15,7 +15,7 @@ function ArchivesSpreadsheets() {
         <p>
           Big Google Sheets nerd here. I love using spreadsheets to track various things and
           organize data. I've created numerous spreadsheets that I have recycled for various
-          projects and some of the more polished ones are listed here.
+          projects, some of the more polished ones are listed here.
         </p>
 
         <p>Things I need Google Sheets to add:</p>
@@ -38,55 +38,12 @@ function ArchivesSpreadsheets() {
         <ul>
           <li>
             <a
-              href='https://docs.google.com/spreadsheets/d/1ATGY-Zg6kXoDmycATp7jX0sVGsTqa7dWBNL5Ooxep4s/edit?usp=sharing'
-              target='blank'
-            >
-              Valorant RR History
-            </a>
-            <InlineChip text='High Fidelity' />: Track RR gains and losses. Track win rate across
-            days, maps, agents, and more. Generate a W/L display for your Discord status.
-          </li>
-          <li>
-            <a
               href='https://docs.google.com/spreadsheets/d/1zo4qIlByV7U7cE6jgI5dg745d37hHuqR6N8_Ku3SsIs/edit?usp=sharing'
               target='blank'
             >
               Music Tournament Scoring and Stats Sheet
             </a>
             <InlineChip text='High Fidelity' />: Scoring sheet and stats for a music tournament.
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a
-              href='https://docs.google.com/spreadsheets/d/1FM_Ahy2RggCsxBJkKCccp4XVgsZiE1IhcuSj97W1cbc/edit?usp=sharing'
-              target='blank'
-            >
-              Book Pacer
-            </a>
-            : One page target, one end date. Find out how many pages you should read per day to
-            finish a book by a certain date with data visualization. Enter your target in the C
-            column and log your progress in the E column.
-          </li>
-          <li>
-            <a
-              href='https://docs.google.com/spreadsheets/d/167h76slStQE1Q_IsectLTqQEiHZUzGrQqUEYVbDwE0M/edit?usp=sharing'
-              target='blank'
-            >
-              Advanced Book Pacer
-            </a>
-            : Just like the Book Pacer above, but allows for multiple page targets over the duration
-            of the book. Set targets in the E column, log progress in F column.
-          </li>
-          <li>
-            <a
-              href='https://docs.google.com/spreadsheets/d/193H0oYwYRjCVFK_btSYD9c3mwSqcSr_pie9kFIyW1K8/edit?usp=sharing'
-              target='blank'
-            >
-              Reading Log/List
-            </a>
-            : Track the books you read and when along with the length of them. Audiobook support
-            too!
           </li>
         </ul>
 
@@ -119,10 +76,16 @@ function ArchivesSpreadsheets() {
         </ul>
         <ul>
           <li>
+            <a href='https://docs.google.com/spreadsheets/d/17cwZ9xUbEFDxOkZmrmqxB1ZWefl2kmTdxSYj16ltN38/edit?usp=sharing'>
+              Rocket League Match History and Analytics
+            </a>
+            : Breakdown of games, quality, and analytics of Rocket League matches.
+          </li>
+          <li>
             <a href='https://docs.google.com/spreadsheets/d/1YYu9tNWE7hryX1QdDcJZNWcys3WiBgi3neh3rUL0KdQ/edit?usp=sharing'>
               osu! Tournament History
             </a>
-            : A log of my tournament participation in the rhythm game, osu!.
+            : A log of my tournament participation in the rhythm game osu!.
           </li>
           <li>
             <a href='https://docs.google.com/spreadsheets/d/1GWXwa5gSNNnF545JciJA98uJgRdcbVwP1BLSJO0IjVw/edit?usp=sharing'>

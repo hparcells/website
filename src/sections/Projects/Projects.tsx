@@ -6,12 +6,19 @@ import classes from './Projects.module.scss';
 
 import elementalRebornImage from '/public/img/elemental-reborn.png';
 import risingSwagImage from '/public/img/rising-swag.png';
+import smtBuildTrackingImage from '/public/img/smt-build-tracking.png';
 
 const projectShowcase: Project[] = [
   {
+    name: 'SMT Build Tracking Tool',
+    description:
+      "A scalable production tool to improve the visibility, accountability, and monitoring of steps within the build process.\n\nBuilt on Ignition's Perspective module and SQL Server during my second internship at Magna Electronics.",
+    image: smtBuildTrackingImage
+  },
+  {
     name: 'Rising Swag',
     description:
-      'An interactive, curated list of available merch items from all around the Red Rising community from big to small.',
+      'An interactive, curated list of available merch items from all around the Red Rising community from big to small.\n\nIncludes developer tools such as an admin panel, API, and custom Google Chrome extension to streamline content management.',
     image: risingSwagImage,
     github: 'https://github.com/hparcells/rising-swag',
     demo: 'https://risingswag.com/'

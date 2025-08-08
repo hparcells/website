@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import Layout from '../../components/Layout';
 
-import classes from '../../styles/archives.module.scss';
+import classes from './index.module.scss';
 
 function ArchivesCoolPeople() {
   return (
@@ -23,9 +23,9 @@ function ArchivesCoolPeople() {
           learned, and the wisdom you've shared.
         </p>
         <p>
-          Some of you, we may not have talked in months or years, others only once, but know that I
-          appreciate you, and I wish you best of luck in wherever life takes you.{' '}
-          <em>Per aspera, ad astra.</em>
+          Some of you, we may talk daily, some we may not have talked in months or years, others
+          only once, but know that I appreciate you, and I wish you best of luck in wherever life
+          takes you. <em>Per aspera, ad astra.</em>
         </p>
         <ul
           style={{

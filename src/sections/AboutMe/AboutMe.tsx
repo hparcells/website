@@ -8,17 +8,17 @@ function AboutMe() {
       <div className={classes.wrapper}>
         <div className={classes.content}>
           <p>
-            Currently a third year Computer Science student based out of southeast Michigan. I am a
-            self-taught programmer, starting back around 2014-15 with Java and C++ and eventually
-            branching out into the endless world of web development. After exploring many different
-            technologies, I've recently found myself enjoying working with the MERN stack and
-            Next.js with many of my latest projects.
+            Currently a fourth year Computer Science student out of southeast Michigan. I' a
+            self-taught programmer dating back to 2014-15 with a background in Java and C++,
+            eventually finding my niche in endless world of web development. After exploring many
+            various technologies, I've recently found myself enjoying working with the MERN stack
+            with Next.js on some of my latest projects.
           </p>
           <p>
             Driven by a passion for learning, improvement/innovation, and creating, I have developed
-            projects with a functionality and detail-oriented, user-first mindset, including this
-            website, personal side projects, through contract and freelance work, and at my
-            internship position.
+            projects with a scalability, detail-oriented, user-first mindset, including this
+            website, professional work during my internships, personal side projects, and
+            contract/freelance work.
           </p>
         </div>
         <div className={classes.content}>
@@ -27,12 +27,9 @@ function AboutMe() {
             <div className={classes.chip}>React</div>
             <div className={classes.chip}>Next.js</div>
             <div className={classes.chip}>MongoDB</div>
-            <div className={classes.chip}>RESTful API</div>
-            <div className={classes.chip}>Git and GitHub</div>
-            <div className={classes.chip}>HTML</div>
-            <div className={classes.chip}>CSS/SASS</div>
-            <div className={`${classes.chip} ${classes.secondaryChip}`}>RethinkDB</div>
-            <div className={`${classes.chip} ${classes.secondaryChip}`}>Redux</div>
+            <div className={classes.chip}>SQL</div>
+            <div className={`${classes.chip} ${classes.secondaryChip}`}>Ignition Perspective</div>
+            <div className={`${classes.chip} ${classes.secondaryChip}`}>Python</div>
             <br />
             <br />
             <div className={`${classes.chip} ${classes.chip}`}>Java</div>

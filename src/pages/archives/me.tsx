@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Layout from '../../components/Layout';
 
-import classes from '../../styles/archives.module.scss';
+import classes from './index.module.scss';
 
 function AboutMe() {
   return (
@@ -76,7 +76,13 @@ function AboutMe() {
           to truly use Next.js.
         </p>
         <p>
-          In mid-2024, I landed my first <strong>internship at Magna Electronics</strong>.
+          In Summer 2024, I landed my first <strong>internship at Magna Electronics</strong> as a
+          Post SMT Engineering intern, and returned for another internship term the following summer
+          in 2025. There I was able to apply much of my previous experience in web development, as
+          well as pick up many more valuable skills within <strong>SQL</strong>,{' '}
+          <strong>Python</strong>, and <strong>Ignition Perspective</strong>. I was also able to
+          experiment with machine learning image classification as well using{' '}
+          <strong>TensorFlow</strong>.
         </p>
         <p>
           You can view what it took to make this website possible by visiting the{' '}
@@ -89,15 +95,15 @@ function AboutMe() {
 
         <h2>Outside of Development</h2>
         <p>
-          Outside of development I have a huge <del>addiction</del> passion for gaming. I've
-          previously played competitive(ly) in Rocket League, CS:GO, and Valorant. As as aviation
-          nerd, I love any flight simulator (Project Wingman, MSFS and FSX), but notably recently
-          put a lot of my time here into Digital Combat Simulator (look it up).
+          Outside of development I have a passion for gaming. I've previously played competitive(ly)
+          in Rocket League, CS:GO, and Valorant. As as avgeek, I love any flight simulator (Project
+          Wingman, AC7, and MSFS/FSX), but most notably I've put a lot of time into Digital Combat
+          Simulator (look it up).
         </p>
         <p>
           Surprisingly, I've picked up the sport of fencing, and have been somewhat active in
           practice and competitions since late 2023. For anyone who's familiar with the sport, I've
-          been focusing on foil and occasionally fence sabre.
+          been primarily focusing on foil and fence sabre for fun.
         </p>
         <p>In the past, I've tried my hand at creating music but never really got fully into it.</p>
         <p>
@@ -109,9 +115,15 @@ function AboutMe() {
         </p>
         <p>
           I've been trying to improve at video editing. While I still haven't made anything crazy,
-          I've learned a lot. I've previously used Vegas Pro for a bit and Premier Pro for a hot
-          minute. Soon after, I fell into learning HitFilm, but after performance issues arose and
-          the lack of basic hotkeys, I switched to DaVinci Resolve.
+          I've learned a lot. I've previously used Vegas Pro for a bit and Premier Pro for a second.
+          Soon after, I fell into learning HitFilm, but after performance issues arose and the lack
+          of basic functionality, I switched to DaVinci Resolve.
+        </p>
+        <p>
+          In the future, I'd like to pick up a number of other hobbies. Drumming and filmmaking have
+          always piqued my interest. I've also tried a bit of archery have have enjoyed it. However,
+          any and all of these require a significant budget and time requirement which I'm not sure
+          I have yet.
         </p>
       </div>
     </Layout>

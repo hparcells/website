@@ -5,7 +5,7 @@ import axios from 'axios';
 
 import Layout from '../../components/Layout';
 
-import classes from '../../styles/archives.module.scss';
+import classes from './index.module.scss';
 
 export async function getStaticProps() {
   if (!process.env.NOW_URL) {

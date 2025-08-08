@@ -44,9 +44,9 @@ function ArchivesIndex() {
               Blog
             </a>
           </li>
-          <li>
+          {/* <li>
             <Link href='/archives/questions'>Q&A</Link>
-          </li>
+          </li> */}
         </ul>
 
         <p className={classes.strongIndexHeader}>

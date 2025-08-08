@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 import Layout from '../../components/Layout';
 
-import classes from '../../styles/archives.module.scss';
+import classes from './index.module.scss';
 
 function ArchivesTools() {
   return (
