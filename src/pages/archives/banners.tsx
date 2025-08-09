@@ -6,13 +6,14 @@ import Layout from '../../components/Layout';
 import classes from './index.module.scss';
 
 const banners = [
+  'red-rising-shelf',
+  'midwest',
+  'the-tax',
   'dt',
-  'geoguessr',
   'integration',
   'interest',
-  'midwest',
-  'cooking',
-  'red-rising-shelf'
+  'geoguessr',
+  'cooking'
 ];
 
 const bannerLoader: ImageLoader = ({ src, width, quality }: ImageLoaderProps) => {

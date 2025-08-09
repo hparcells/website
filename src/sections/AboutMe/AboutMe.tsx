@@ -10,9 +10,9 @@ function AboutMe() {
           <p>
             Currently a fourth year Computer Science student out of southeast Michigan. I' a
             self-taught programmer dating back to 2014-15 with a background in Java and C++,
-            eventually finding my niche in endless world of web development. After exploring many
-            various technologies, I've recently found myself enjoying working with the MERN stack
-            with Next.js on some of my latest projects.
+            eventually finding my niche in the endless world of web development. After exploring
+            various technologies, I've found myself enjoying working with the MERN stack and Next.js
+            on some of my latest projects.
           </p>
           <p>
             Driven by a passion for learning, improvement/innovation, and creating, I have developed
